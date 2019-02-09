@@ -1,0 +1,38 @@
+{
+  "name": "awesome-vue",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <br>   <img width=\"400\" src=\"./logo.svg\" alt=\"logo of vue-awesome repository\">   <br>   <br> </p>",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project .",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iampaul83/awesome-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iampaul83/awesome-vue/issues"
+  },
+  "homepage": "https://github.com/iampaul83/awesome-vue#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/isomorphic-fetch": "^0.0.34",
+    "@types/p-queue": "^3.0.0",
+    "dotenv": "^6.2.0",
+    "graphql-request": "^1.8.2",
+    "isomorphic-fetch": "^2.2.1",
+    "p-queue": "^3.0.0",
+    "remark-parse": "^6.0.3",
+    "remark-stringify": "^6.0.4",
+    "unified": "^7.1.0",
+    "unist-util-visit": "^1.4.0",
+    "vfile": "^4.0.0"
+  }
+}
