@@ -36,9 +36,7 @@ function move(options: any) {
   return transformer;
 
   async function transformer(tree: Unist.Node, file1: VFileCompatible) {
-    const file = file1 as VFile;
-    const promises: Promise<any>[] = [];
-    const queue = new PQueue({ concurrency: 20 });
+    const queue = new PQueue({ concurrency: 10 });
     visit(tree, 'link', (link: any) => {
       const { url } = link;
       if (!url) return;
